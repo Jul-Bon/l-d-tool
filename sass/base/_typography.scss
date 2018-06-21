@@ -1,0 +1,144 @@
+body {
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: $text-color;
+}
+
+/*Header*/
+.main_title {
+    font-size: 15px;
+}
+
+.site-header__contact-item {
+    color: $accent-color;
+    font-family: $contact-link-font;
+
+    a {
+        @include link;
+        color: $dark-text-color;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}
+
+.menu-item {
+    a {
+        @include link;
+        color: $light-color;
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+/**Section Welcome**/
+/*Welcome banner*/
+.welcome__banner {
+    color: $light-color;
+}
+
+.welcome__title {
+    font-family: $title-font;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    @media screen and(min-width: 767px) {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+.welcome__description {
+    @media screen and(min-width: 767px) {
+        font-size: 20px;
+    }
+}
+
+/*Welcome information */
+.welcome__info-certificate {
+    color: $dark-text-color;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    @media screen and(min-width: 767px) {
+        font-size: 27px;
+    }
+}
+
+.welcome__info-title {
+    font-weight: 700;
+}
+
+/*Title for sections*/
+.section__title {
+    font-family: $title-font;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    @media screen and(min-width: 767px) {
+        font-size: 35px;
+    }
+}
+
+.light-title {
+    color: $light-color;
+}
+
+.dark-title {
+    color: $dark-text-color;
+}
+
+/*Title for posts*/
+.post-title {
+    font-family: $title-font;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Section Advantages*/
+.advantages__item {
+    text-align: justify;
+    font-size: 15px;
+}
+
+/*Section*/
+.differences__item {
+    .post-title {
+        color: $dark-text-color;
+        font-size: 20px;
+        line-height: 20px;
+
+        @media screen and(min-width: 767px) {
+            font-size: 27px;
+        }
+    }
+}
+
+/*Section reviews*/
+.reviews__title {
+    font-weight: 700;
+}
+
+.reviews__text {
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*Section Supply*/
+.supply__description {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+/*Footer*/
+.footer {
+    color: $light-color;
+}

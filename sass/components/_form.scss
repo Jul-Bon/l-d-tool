@@ -1,0 +1,45 @@
+.form__box {
+    max-width: 462px;
+    box-sizing: border-box;
+    padding: 39px 38px 24px;
+    margin: 0 auto;
+    background-color: $light-color;
+}
+
+.wpcf7 {
+    .wpcf7-form-control {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-family: $main-font;
+        color: #9b9b9b;
+        padding: 20px;
+    }
+
+    .wpcf7-list-item-label{
+        color: #9b9b9b;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .wpcf7-list-item {
+        margin: 0;
+    }
+
+    p {
+        margin: 0 0 11px 0;
+    }
+
+    p:last-of-type {
+        text-align: center;
+        margin: 33px 0 0 0;
+    }
+}
+

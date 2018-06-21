@@ -1,0 +1,75 @@
+.button {
+    @include link;
+    @include transition;
+    box-sizing: border-box;
+    background-color: $accent-color;
+    color: $light-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        opacity: 0.7;
+    }
+    &:visited {
+        color: $light-color;
+    }
+}
+
+.header__button {
+    padding: 0 20px;
+    line-height: 54px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    @media screen and(min-width: 1119px) {
+        padding: 0 35px;
+    }
+}
+
+.welcome__info-button {
+    padding: 0 18px;
+    border: 1px solid $accent-color;
+    background-color: transparent;
+    color: $accent-color;
+    line-height: 31px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $accent-color;
+        color: $light-color;
+    }
+
+    &:visited {
+        color: initial;
+    }
+}
+
+.footer_button {
+    line-height: 44px;
+    padding: 0 30px;
+    margin: 22px 0 26px;
+}
+
+.form__box {
+    .wpcf7 {
+        .submit_button {
+            @include transition;
+            background-color: $accent-color;
+            color: $light-color;
+            width: 93px;
+            margin: 0 auto;
+            padding: 10px 0;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+
+            &:hover,
+            &:focus,
+            &:active {
+                opacity: 0.7;
+                cursor: pointer;
+            }
+        }
+    }
+}
